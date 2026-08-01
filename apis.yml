@@ -1,8 +1,28 @@
 aid: splash
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/splash.png
 name: Splash
-description: Splash is a company surfaced as a portfolio company of khosla-ventures, techstars and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Splash is an AI music-creation platform building games and tools for a new
+  generation of creators. Developed by the team formerly known as Popgun AI, it
+  has built proprietary generative-audio technology and high-quality music
+  datasets since 2017, powering features such as Text-to-Singing, Text-to-Rap,
+  and Generative Text-to-Music. Splash's consumer products include the Splash
+  beat-maker app for iOS and Android, SPLASH on Roblox, the WeMix collaborative
+  music experience, and KAIMIX. The company is backed by Khosla Ventures,
+  Techstars, the Alexa Fund, Bitkraft, King River Capital, and Mawson. Splash
+  publishes no public developer API or documentation surface at this time; this
+  profile captures its public web identity in the API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/splash/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,15 +33,39 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Music
+- Artificial Intelligence
+- Generative AI
+- Music Creation
+- Audio
+- Consumer App
+- Gaming
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
 common:
+- type: DomainSecurity
+  url: security/splash-domain-security.yml
 - type: Website
-  url: http://popgun.ai/
+  url: https://splashmusic.com/
+- type: Blog
+  url: https://splashmusic.com/blog
+- type: Support
+  url: https://splashmusic.com/contact
+- type: TermsOfService
+  url: https://splashmusic.com/legal
+- type: PrivacyPolicy
+  url: https://splashmusic.com/privacy-policy
+- type: Careers
+  url: https://splashmusic.com/work-with-us
